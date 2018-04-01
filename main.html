@@ -66,15 +66,15 @@
   <h1>出欠をフォームよりご記入ください</h1>
   <form class="form" action="main.php" method="post">
     <table>
-      <tr><th>お名前：</th><td><input type="text" name="" value=""></td></tr>
-      <tr><th>郵便番号：</th><td><input type="text" name="" value=""></td></tr>
-      <tr><th>住所：</th><td><input type="text" name="" value=""></td></tr>
-      <tr><th>電話番号：</th><td><input type="text" name="" value=""></td></tr>
+      <tr><th>お名前：</th><td><input id="text" type="text" name="" value=""></td></tr>
+      <tr><th>郵便番号：</th><td><input id="text" type="text" name="" value=""></td></tr>
+      <tr><th>住所：</th><td><input id="text" type="text" name="" value=""></td></tr>
+      <tr><th>電話番号：</th><td><input id="text" type="text" name="" value=""></td></tr>
       <tr>
         <th>出欠：</th>
-          <td><input type="radio" name="syusseki" value=""><label for=""> 出席　</label>
-              <input type="radio" name="kesseki" value=""><label for=""> 欠席　</label>
-              <input type="radio" name="horyuu" value=""><label for=""> 保留　</label>
+          <td><input type="radio" name="syukketsu" value="s"><label for=""> 出席　</label>
+              <input type="radio" name="syukketsu" value="k"><label for=""> 欠席　</label>
+              <input type="radio" name="syukketsu" value="h"><label for=""> 保留　</label>
           </td>
       </tr>
       <tr><th></th><td><input type="submit" name="" value=""  class="submit_btn"></td></tr>
